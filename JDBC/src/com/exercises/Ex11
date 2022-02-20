@@ -1,4 +1,5 @@
-Write a SQL statement that sorts out the customer and their grade who made an order. Each of the customers must have a grade and served by at least a salesman, who belongs to a city.
+Write a SQL statement that sorts out the customer and their grade who made an order. Each of the customers must have a grade and served by at least a salesman, who belongs 
+to a city.
 
 SELECT customer.cust_name AS "Customer",
 customer.grade AS "Grade",orders.ord_no AS "Order No."
